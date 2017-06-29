@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/khung3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgthongtin"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/icon" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:id="@+id/imgGioithieu"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bản Đồ ATM"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:textColor="#010101"
+            android:textStyle="bold|italic" />
+</FrameLayout>

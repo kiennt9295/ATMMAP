@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="khoảng cách"
+        android:id="@+id/btnKC"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingLeft="10dp"
+        android:textSize="17dp"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:drawableLeft="@drawable/places_ic_search"
+        android:background="@drawable/khung1"
+        android:textColor="#030303"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="tên ngân hàng"
+        android:id="@+id/btntenNH"
+        android:layout_gravity="center_horizontal|top"
+        android:paddingLeft="10dp"
+        android:textSize="17dp"
+        android:gravity="left|center_vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:drawableLeft="@drawable/places_ic_search"
+        android:background="@drawable/khung1"
+        android:textColor="#030303"
+        android:clickable="false"
+        android:visibility="invisible" />
+</FrameLayout>
